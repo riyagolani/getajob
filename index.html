@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <style>
+            body{
+                background-image: url("clientback.png");
+                background-size: cover;
+            }
+            div{
+                float:left;
+                margin-top:25%;
+                margin-left:10%;
+                padding-left: 1%;
+                padding-right: 1%;
+                margin-bottom: 10%;
+                box-sizing: border-box;
+                border: 1px solid rgb(175, 174, 174);
+                box-shadow: 5px 5px 3px 5px #888888;
+                border-radius: 10px;
+                background-color: rgb(168, 202, 202);
+            }
+            pre{
+                font-size:28px;
+                float:right;
+                margin-top:15%;
+                margin-right:10%;
+                padding-left: 1px;
+                background-color: unset;
+                border:0px;
+                color:rgb(14, 0, 51);
+                text-align: justify;
+                text-shadow: 3px 3px 4px rgb(0, 238, 255), 0 0 0.2em rgb(58, 58, 57);
+                border: 1px solid rgb(175, 174, 174);
+                box-shadow: 10px 10px 8px 10px #888888;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+        <pre>       
+        Welcome to our website.
+        Here new clients can register themselves
+        and login with their credentials.
+        The admin will look at your data
+        and provide you a suitable role.
+        </pre>
+        <div>
+        <button type="button" class="btn btn-primary btn-lg" style="margin-right: 1.8px;" onclick="window.location.href='clientlogin.php'">Client</button>
+        <button type="button" class="btn btn-primary btn-lg" style="margin-left: 1.8px;" onclick="window.location.href='adminlogin.php'" >Admin</button>
+        </div>
+        </center>
+    </body>
+</html>
