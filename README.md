@@ -1,6 +1,11 @@
 # getajob
 This website lets a client to create an account by sharing necessary credentials to get a job. The client can check once logged-in if he has been assigned any job by the admin or not. <br/><br/>Whereas admin can see all the client available to get a job along with their current job role (employed/unemployed). Admin can assign job role to any client as per his requirement.
 
+
+#### Command Example
+``` !flashpoint-compromised-credentials-list ```
+
+#### Context Example
 ``` {
     "hits": {
         "hits": [
@@ -146,3 +151,12 @@ This website lets a client to create an account by sharing necessary credentials
     "took": 741
 }
  ```
+
+#### Human Readable Output
+
+##### Below are the detail found:
+| **FPID** | **Email** | **Breach Source** | **Breach Source Type** | **Password** | **Created Date** | **First Observed Date** |
+| --- | --- | --- | --- | --- | --- | --- |
+| dummy_fpid1 | dummy_email1 | Analyst Research| Analyst Research | dummy_password1 | 2021-01-26T12:00:00Z | 2021-01-27T18:50:36Z |
+| dummy_fpid2 | dummy_email2 | https://www.virustotal.com/gui/file/0e59531d9ebf1d695cb41c1afd443c22bfaef56dafa636c2cf157deb19b679fe/details | VirusTotal | dummy_password2 | 2021-06-06T20:47:35Z | 2021-06-06T20:47:35Z |
+
